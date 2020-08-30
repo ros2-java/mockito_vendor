@@ -1,0 +1,11 @@
+repositories:
+  # Contains ament_cmake_export_jars package
+  ros2_java:
+    type: git
+    url: https://github.com/ros2-java/ros2_java.git
+    version: dashing
+  # Dependency of ament_cmake_export_jars
+  ament_java:
+    type: git
+    url: https://github.com/ros2-java/ament_java.git
+    version: master
